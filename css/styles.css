@@ -63,19 +63,18 @@ body{
 }
 
 .paper-btn{
-  width:10vw;
-  height:10vw;
+  background-color:white;
   outline: none;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  padding: 2rem;
+  padding: 2vw;
   box-shadow: 0 8px 0 0 hsl(230, 89%, 62%);
   -webkit-box-shadow: 0 8px 0 0 hsl(230, 89%, 62%);
   -moz-box-shadow: 0 8px 0 0 hsl(230, 89%, 62%);
   border: solid hsl(230, 89%, 65%) 1.2rem;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   cursor: pointer;
 }
 
@@ -95,18 +94,17 @@ body{
 }
 
 .scissors-btn{
-  width:10vw;
-  height:10vw;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  padding: 2rem;
+  background-color:white;
+  padding: 2vw;
   box-shadow: 0 8px 0 0 hsl(39, 89%, 49%);
   -webkit-box-shadow: 0 8px 0 0 hsl(39, 89%, 49%);
   -moz-box-shadow: 0 8px 0 0 hsl(39, 89%, 49%);
   border: solid hsl(40, 84%, 53%) 1.2rem;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   cursor: pointer;
 }
 
@@ -126,14 +124,11 @@ body{
 }
 
 .rock-btn{
-  width:10vw;
-  height:10vw;
-  margin-left: auto;
-  margin-right:auto;
+  background-color:white;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  padding: 2rem;
+  padding: 2vw;
   box-shadow: 0 8px 0 0 hsl(349, 71%, 52%);
   -webkit-box-shadow: 0 8px 0 0 hsl(349, 71%, 52%);
   -moz-box-shadow: 0 8px 0 0 hsl(349, 71%, 52%);
@@ -151,14 +146,20 @@ body{
   transform: translateY(4px);
 }
 
-.rock-btn-align{
-
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.rock-row{
+  position: absolute;
+  bottom:0;
+  width:100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .play-area{
+    width:100%;
+  }
+  .rules-wrapper{
+    height:auto;
+  }
+}
 
 .rules-wrapper{
   position: relative;
