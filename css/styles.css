@@ -22,7 +22,7 @@ body{
 }
 
 .title-box{
-  margin: 2rem;
+  margin: 2rem 1rem 2rem 2rem;
   left: 0;
 }
 
@@ -259,5 +259,6 @@ border-color:white;
   }
   .rules-wrapper{
     height:auto;
+    margin-top:10rem;
   }
 }
