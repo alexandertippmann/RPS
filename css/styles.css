@@ -4,7 +4,7 @@ body{
   font-weight: 600;
   min-height: 100vh;
 }
-
+/*-----------Setup-----------*/
 .main-container{
   margin-top:2%;
 }
@@ -75,12 +75,9 @@ body{
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
-.paper-btn:active{
+.paper-btn:enabled:active{
   outline: none;
   box-shadow: 0 4px 0 0 hsl(230, 89%, 62%);
   -webkit-box-shadow: 0 4px 0 0 hsl(230, 89%, 62%);
@@ -88,10 +85,14 @@ body{
   transform: translateY(4px);
 }
 
-.scissors-btn{
+.paper-btn-align{
+
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
+}
+
+.scissors-btn{
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -105,7 +106,7 @@ body{
   cursor: pointer;
 }
 
-.scissors-btn:active{
+.scissors-btn:enabled:active{
     outline: none;
     box-shadow: 0 4px 0 0 hsl(39, 89%, 49%);
     -webkit-box-shadow: 0 4px 0 0 hsl(39, 89%, 49%);
@@ -113,11 +114,14 @@ body{
     transform: translateY(4px);
 }
 
-.rock-btn{
+.scissors-btn-align{
+
   position: absolute;
-  bottom: 0;
-  left: 0;
+  top: 0;
   right: 0;
+}
+
+.rock-btn{
   margin-left: auto;
   margin-right:auto;
   -webkit-border-radius: 50%;
@@ -133,7 +137,7 @@ body{
   cursor: pointer;
 }
 
-.rock-btn:active{
+.rock-btn:enabled:active{
   outline: none;
   box-shadow: 0 4px 0 0 hsl(349, 71%, 52%);
   -webkit-box-shadow: 0 4px 0 0 hsl(349, 71%, 52%);
@@ -141,17 +145,24 @@ body{
   transform: translateY(4px);
 }
 
+.rock-btn-align{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 
 .rules-wrapper{
   position: relative;
-  min-height: 10rem;
-  height:100%;
+  height: 90vh;
 }
 .rules-btn{
   position: absolute;
 left: 0;
 right:0;
-bottom:5rem;
+bottom:3rem;
 margin: auto;
 color:white;
 border-color:white;
@@ -201,4 +212,43 @@ border-color:white;
   text-align:center;
   margin-top:10%;
   color:white;
+}
+
+/*----------Picked------------*/
+
+.picked-text{
+  position: relative;
+  min-height:3rem;
+  text-align: center;
+}
+
+.yp{
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+
+
+.hp{
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.picked{
+  min-height:12rem;
+  padding-top:1rem;
+}
+
+.vm-message{
+  font-size:2rem;
+  font-weight:700;
+  color:white;
+  display: block;
+  margin: 2rem;
+}
+
+.replay-btn{
+  padding: .5rem 4rem;
+  font-size:1.5rem;
 }
