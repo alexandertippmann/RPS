@@ -63,6 +63,8 @@ body{
 }
 
 .paper-btn{
+  width:10vw;
+  height:10vw;
   outline: none;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -93,6 +95,8 @@ body{
 }
 
 .scissors-btn{
+  width:10vw;
+  height:10vw;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -122,6 +126,8 @@ body{
 }
 
 .rock-btn{
+  width:10vw;
+  height:10vw;
   margin-left: auto;
   margin-right:auto;
   -webkit-border-radius: 50%;
