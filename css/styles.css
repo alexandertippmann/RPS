@@ -261,4 +261,16 @@ border-color:white;
     height:auto;
     margin-top:10rem;
   }
+  .rules{
+    text-align:center;
+    position: fixed;
+    top:15%;
+    bottom:15%;
+    left:5%;
+    right:5%;
+    padding:1rem;
+    background-color: white;
+    border-radius:1rem;
+  }
+
 }
