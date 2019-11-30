@@ -13,7 +13,7 @@ $(".rules-btn").click(function(ev){
         <button class="close-btn btn"><img src="./images/icon-close.svg" alt="close"></button>
         </div>
         <div class="rules-image-wrapper">
-        <img src="./images/image-rules.svg" width="100%" height="100%" alt="">
+        <img src="./images/image-rules-bonus.svg" width="100%" height="100%" alt="">
         </div>
       </div>`);
   }
@@ -92,14 +92,14 @@ $(document).on("click",".replay-btn",function(ev){
   playArea.empty();
   playArea.append(`
     <img class="background-img" src="./images/bg-triangle.svg" width="100%" height="100%" alt="">
-    <button type="button" class="paper-btn paper-btn-align rps" name="paper"><img src="./images/icon-paper.svg" alt="paper"></button>
-    <button type="button" class="scissors-btn scissors-btn-align rps" name="scissors"><img src="./images/icon-scissors.svg" alt="rock"></button>
+    <button type="button" class="paper-btn paper-btn-align rps" name="paper"><img class="btn-img" src="./images/icon-paper.svg" alt="paper"></button>
+    <button type="button" class="scissors-btn scissors-btn-align rps" name="scissors"><img class="btn-img" src="./images/icon-scissors.svg" alt="rock"></button>
     <div class="row rock-row no-gutters">
       <div class="col">
 
       </div>
       <div class="col">
-        <button type="button" class="rock-btn rock-btn-align rps" name="rock"><img src="./images/icon-rock.svg" alt="rock"></button>
+        <button type="button" class="rock-btn rock-btn-align rps" name="rock"><img class="btn-img" src="./images/icon-rock.svg" alt="rock"></button>
       </div>
       <div class="col">
 

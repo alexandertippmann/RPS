@@ -4,6 +4,10 @@ body{
   font-weight: 600;
   min-height: 100vh;
 }
+
+img{
+  pointer-events: none;
+}
 /*-----------Setup-----------*/
 .main-container{
   margin-top:2%;
@@ -56,10 +60,29 @@ body{
   width:60%;
 }
 
+.pa-rpsls{
+height:auto;
+}
+
 .background-img{
   padding: 2rem 1rem;
   max-width: 100%;
   max-height: 100%;
+}
+
+.rpsls-bg{
+  padding:2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  margin:0;
+}
+
+.btn-img{
+width:2.5rem;
+height:2.5rem;
 }
 
 .paper-btn{
@@ -146,11 +169,80 @@ body{
   transform: translateY(4px);
 }
 
+.rock-btn{
+  background-color:white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  padding: 2vw;
+  box-shadow: 0 8px 0 0 hsl(349, 71%, 52%);
+  -webkit-box-shadow: 0 8px 0 0 hsl(349, 71%, 52%);
+  -moz-box-shadow: 0 8px 0 0 hsl(349, 71%, 52%);
+  border: solid hsl(349, 70%, 56%) 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.rock-btn:enabled:active{
+  outline: none;
+  box-shadow: 0 4px 0 0 hsl(349, 71%, 52%);
+  -webkit-box-shadow: 0 4px 0 0 hsl(349, 71%, 52%);
+  -moz-box-shadow: 0 4px 0 0 hsl(349, 71%, 52%);
+  transform: translateY(4px);
+}
 .rock-row{
   position: absolute;
   bottom:0;
   width:100%;
 }
+
+.spock-btn{
+  background-color:white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  padding: 2vw;
+  box-shadow: 0 8px 0 0 hsl(189, 59%, 53%);
+  -webkit-box-shadow: 0 8px 0 0 hsl(189, 59%, 53%);
+  -moz-box-shadow: 0 8px 0 0 hsl(189, 59%, 53%);
+  border: solid hsl(189, 58%, 57%) 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.spock-btn:enabled:active{
+  outline: none;
+  box-shadow: 0 4px 0 0 hsl(189, 59%, 53%);
+  -webkit-box-shadow: 0 4px 0 0 hsl(189, 59%, 53%);
+  -moz-box-shadow: 0 4px 0 0 hsl(189, 59%, 53%);
+  transform: translateY(4px);
+}
+
+.lizard-btn{
+  background-color:white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  padding: 2vw;
+  box-shadow: 0 8px 0 0 hsl(261, 73%, 60%);
+  -webkit-box-shadow: 0 8px 0 0 hsl(261, 73%, 60%);
+  -moz-box-shadow: 0 8px 0 0 hsl(261, 73%, 60%);
+  border: solid hsl(261, 72%, 63%) 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.lizard-btn:enabled:active{
+  outline: none;
+  box-shadow: 0 4px 0 0 hsl(261, 73%, 60%);
+  -webkit-box-shadow: 0 4px 0 0 hsl(261, 73%, 60%);
+  -moz-box-shadow: 0 4px 0 0 hsl(261, 73%, 60%);
+  transform: translateY(4px);
+}
+
 
 
 
